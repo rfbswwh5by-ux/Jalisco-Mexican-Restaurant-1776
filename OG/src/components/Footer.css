@@ -1,0 +1,115 @@
+.footer {
+  background: var(--neutral-900);
+  color: var(--neutral-300);
+  padding-top: 80px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  gap: 48px;
+  padding-bottom: 56px;
+}
+.footer-logo-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.footer-logo-img {
+  height: 48px;
+  width: auto;
+  border-radius: 8px;
+}
+.footer-logo-row h3 {
+  color: #fff;
+  font-size: 1.3rem;
+}
+.footer-brand p {
+  color: var(--neutral-400);
+  font-size: 0.92rem;
+  margin-bottom: 16px;
+  max-width: 320px;
+}
+.footer-rating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.88rem;
+  color: var(--neutral-400);
+}
+.footer-stars { color: var(--accent-500); letter-spacing: 2px; }
+
+.footer-col h4 {
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.footer-col p {
+  font-size: 0.92rem;
+  color: var(--neutral-400);
+  margin-bottom: 6px;
+}
+.footer-link {
+  display: inline-block;
+  color: var(--accent-400);
+  font-size: 0.92rem;
+  font-weight: 500;
+  margin-top: 8px;
+  transition: color 0.2s ease;
+}
+.footer-link:hover { color: #fff; }
+.footer-price { margin-top: 8px; }
+.footer-hours {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.footer-hours li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.88rem;
+  color: var(--neutral-400);
+  padding: 2px 0;
+}
+.footer-hours li.is-today {
+  color: var(--accent-400);
+  font-weight: 600;
+}
+.footer-hours li.is-today span:first-child::after {
+  content: ' · Today';
+  font-size: 0.72rem;
+  color: var(--green-500);
+  font-weight: 500;
+}
+.footer-cta { margin-top: 16px; }
+.footer-btn { padding: 12px 24px; font-size: 0.9rem; }
+
+.footer-bottom {
+  border-top: 1px solid var(--neutral-700);
+  padding: 24px 0;
+}
+.footer-bottom-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.footer-bottom p {
+  font-size: 0.82rem;
+  color: var(--neutral-500);
+}
+.footer-tags { color: var(--neutral-400); }
+
+@media (max-width: 900px) {
+  .footer-grid { grid-template-columns: 1fr 1fr; gap: 40px; }
+}
+@media (max-width: 560px) {
+  .footer-grid { grid-template-columns: 1fr; }
+  .footer-bottom-inner { flex-direction: column; text-align: center; }
+}

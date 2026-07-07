@@ -1,0 +1,87 @@
+.menu { background: var(--neutral-900); color: var(--neutral-100); }
+.menu .section-eyebrow { color: var(--accent-500); }
+.menu .section-title { color: #fff; }
+.menu .section-subtitle { color: var(--neutral-400); }
+.menu-head { text-align: center; margin-bottom: 40px; }
+.menu-head .section-eyebrow,
+.menu-head .section-title,
+.menu-head .section-subtitle { margin-left: auto; margin-right: auto; }
+.menu-head .section-title { margin-bottom: 12px; }
+
+.menu-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+.menu-tab {
+  padding: 10px 24px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--neutral-400);
+  border: 1px solid var(--neutral-700);
+  transition: all 0.2s ease;
+}
+.menu-tab:hover { color: #fff; border-color: var(--neutral-500); }
+.menu-tab.active {
+  background: var(--primary-600);
+  color: #fff;
+  border-color: var(--primary-600);
+}
+
+.menu-list {
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.menu-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 24px 0;
+  border-bottom: 1px dashed var(--neutral-700);
+  transition: padding 0.25s ease;
+}
+.menu-row:hover { padding-left: 8px; }
+.menu-row-info h3 {
+  color: #fff;
+  font-size: 1.25rem;
+  margin-bottom: 6px;
+}
+.menu-row-info p {
+  color: var(--neutral-400);
+  font-size: 0.92rem;
+  max-width: 560px;
+}
+.menu-row-price {
+  font-weight: 700;
+  color: var(--accent-500);
+  font-size: 1.1rem;
+  white-space: nowrap;
+  padding-top: 2px;
+}
+.menu-note {
+  text-align: center;
+  margin-top: 40px;
+  color: var(--neutral-500);
+  font-size: 0.9rem;
+}
+.menu-viewall {
+  text-align: center;
+  margin-top: 24px;
+}
+.menu-viewall .btn-dark {
+  background: var(--accent-500);
+  color: var(--neutral-900);
+}
+.menu-viewall .btn-dark:hover { background: var(--accent-400); }
+
+@media (max-width: 560px) {
+  .menu-row { flex-direction: column; gap: 8px; }
+  .menu-row-price { align-self: flex-start; }
+}

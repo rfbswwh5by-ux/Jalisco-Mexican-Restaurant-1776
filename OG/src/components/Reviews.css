@@ -1,0 +1,95 @@
+.reviews { background: var(--neutral-50); }
+.reviews-head { text-align: center; margin-bottom: 56px; }
+.reviews-head .section-eyebrow,
+.reviews-head .section-title { margin-left: auto; margin-right: auto; }
+.reviews-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  margin-top: 16px;
+}
+.reviews-big {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--primary-600);
+  line-height: 1;
+}
+.reviews-stars { color: var(--accent-500); font-size: 1.2rem; letter-spacing: 2px; }
+.reviews-count { color: var(--neutral-500); font-size: 0.9rem; }
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.review-card {
+  background: #fff;
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+.review-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+.review-stars { color: var(--neutral-300); font-size: 1rem; margin-bottom: 16px; letter-spacing: 2px; }
+.review-stars .on { color: var(--accent-500); }
+.review-text {
+  color: var(--neutral-600);
+  font-size: 0.98rem;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  flex: 1;
+}
+.review-foot {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 16px;
+  border-top: 1px solid var(--neutral-200);
+}
+.review-avatar {
+  display: grid;
+  place-items: center;
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  background: var(--primary-100);
+  color: var(--primary-700);
+  font-weight: 700;
+  font-size: 1rem;
+}
+.review-author { font-weight: 700; font-size: 0.95rem; color: var(--neutral-900); }
+.review-source { font-size: 0.82rem; color: var(--neutral-400); }
+
+@media (max-width: 900px) {
+  .reviews-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 560px) {
+  .reviews-grid { grid-template-columns: 1fr; }
+}
+.reviews-more {
+  margin-top: 40px;
+  text-align: center;
+}
+.reviews-more .btn {
+  background: #4285F4;
+  color: #fff;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.25s ease;
+}
+
+.reviews-more .btn:hover {
+  background: #3367D6;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(66, 133, 244, 0.35);
+}
