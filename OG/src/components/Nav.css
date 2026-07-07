@@ -140,3 +140,37 @@
   text-decoration: none;
 }
 }
+@media (max-width: 768px) {
+  .nav-inner {
+    height: 72px;
+  }
+
+  .nav-logo {
+    max-height: 52px;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 72px;
+    left: 0;
+    right: 0;
+    background: white;
+    flex-direction: column;
+    padding: 20px;
+    gap: 16px;
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-toggle {
+    display: flex;
+  }
+
+  .nav-call {
+    width: 100%;
+    text-align: center;
+  }
+}
