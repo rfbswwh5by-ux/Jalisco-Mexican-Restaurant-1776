@@ -49,3 +49,15 @@
 .photos-more-btn:hover {
   background: #b71c1c;
 }
+@media (max-width: 768px) {
+  .photos-grid {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 240px;
+  }
+
+  .photo-0,
+  .photo-3 {
+    grid-column: auto;
+    grid-row: auto;
+  }
+}
