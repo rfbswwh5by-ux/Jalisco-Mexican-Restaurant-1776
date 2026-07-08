@@ -25,16 +25,10 @@ export default function Menu() {
         </div>
 
         <div className="menu-tabs">
-          {categories.map((c) => (
-            <button
-              key={c.id}
-              className={`menu-tab ${active === c.id ? 'active' : ''}`}
-              onClick={() => setActive(c.id)}
-            >
-              {c.label}
-            </button>
-          ))}
-        </div>
+  <a href="/menu" className="menu-tab active">
+    View Full Menu
+  </a>
+</div>
 
         <div ref={ref} className={`menu-list reveal ${shown ? 'in' : ''}`}>
           {current.items.map((item) => (
