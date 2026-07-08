@@ -23,38 +23,32 @@ export const popularDishes = [
   {
     name: "Fajitas Jalisco",
     price: "$16.99",
-    desc: "Chicken, steak, chorizo, and shrimp cooked with bell peppers, tomatoes, and onions.",
-    img: "/fajitas_shrimp_and_chicken.jpg"
+    desc: "Chicken, steak, chorizo, and shrimp cooked with bell peppers, tomatoes, and onions."
   },
   {
     name: "Monster Chimi",
     price: "$12.75",
-    desc: "A 10-inch flour tortilla filled with grilled chicken, steak, and mushrooms, topped with cheese and ranchero sauce.",
-    img: "/burrito_in_red_sauce.jpg"
+    desc: "A 10-inch flour tortilla filled with grilled chicken, steak, and mushrooms, topped with cheese and ranchero sauce."
   },
   {
     name: "Pollo Jalisco",
     price: "$12.25+",
-    desc: "Grilled chicken over rice covered with cheese sauce. Served with fries, lettuce, sour cream, and tomatoes.",
-    img: "/chicken_platter.jpg"
+    desc: "Grilled chicken over rice covered with cheese sauce. Served with fries, lettuce, sour cream, and tomatoes."
   },
   {
     name: "Steak La Paz",
     price: "$16.99",
-    desc: "Ribeye steak with grilled shrimp, cheese sauce, and fries.",
-    img: "/grilled_shrimp.jpg"
+    desc: "Ribeye steak with grilled shrimp, cheese sauce, and fries."
   },
   {
     name: "Burrito California",
     price: "$13.29",
-    desc: "Grilled chicken and steak with rice, beans, lettuce, guacamole, sour cream, pico de gallo, and cheese sauce.",
-    img: "/burrito_in_red_sauce.jpg"
+    desc: "Grilled chicken and steak with rice, beans, lettuce, guacamole, sour cream, pico de gallo, and cheese sauce."
   },
   {
     name: "Margaritas",
     price: "$4.50+",
-    desc: "Lime and flavored margaritas available regular, jumbo, and pitcher size.",
-    img: "/Margarites.JPG"
+    desc: "Lime and flavored margaritas available regular, jumbo, and pitcher size."
   }
 ]
 
