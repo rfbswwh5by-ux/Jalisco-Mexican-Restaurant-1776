@@ -8,7 +8,7 @@
     url('/IMG_1136.jpeg') center/cover no-repeat;
   color: #fff;
   text-align: center;
-  overflow: hidden;
+  overflow: visible;
 }
 .menupage-hero-overlay {
   position: absolute;
