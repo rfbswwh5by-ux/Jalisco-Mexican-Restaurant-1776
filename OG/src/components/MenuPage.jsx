@@ -25,14 +25,14 @@ export default function MenuPage() {
           <div className="menupage-layout">
             <aside className="menupage-nav">
               {fullMenu.map((cat, i) => (
-                <button
-                  key={cat.category}
-                  className={`menupage-nav-btn ${active === i ? 'active' : ''}`}
-                  onClick={() => setActive(i)}
-                >
-                  {cat.category}
-                </button>
-              ))}
+  <button
+    key={cat.id}
+    className={`menupage-nav-btn ${active === i ? 'active' : ''}`}
+    onClick={() => setActive(i)}
+  >
+    {cat.title}
+  </button>
+))}
             </aside>
 
             <div ref={ref} className={`menupage-content reveal ${shown ? 'in' : ''}`}>
