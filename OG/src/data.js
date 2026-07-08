@@ -690,69 +690,20 @@ export const fullMenu = [
 },
 {
   id: "drinks",
-  title: "Drinks",
+  title: "Margaritas, Beer & Wine",
   items: [
-    {
-      name: "Soft Drinks",
-      desc: "Free refills.",
-      price: "3.25"
-    },
-    {
-      name: "Fresh Tea",
-      desc: "Sweet or Unsweet.",
-      price: "3.25"
-    },
-    {
-      name: "Coffee",
-      desc: "Fresh brewed coffee.",
-      price: "2.99"
-    },
-    {
-      name: "Mexican Coke",
-      desc: "Imported bottled Coca-Cola.",
-      price: "3.99"
-    },
-    {
-      name: "Jarritos",
-      desc: "Assorted flavors.",
-      price: "3.50"
-    },
-    {
-      name: "Horchata",
-      desc: "Traditional rice cinnamon drink.",
-      price: "3.99"
-    }
-  ]
-},
-{
-  id: "margaritas",
-  title: "Margaritas & Beer",
-  items: [
-    {
-      name: "House Margarita",
-      desc: "Available frozen or on the rocks.",
-      price: "Market Price"
-    },
-    {
-      name: "Flavored Margarita",
-      desc: "Strawberry, Mango, Peach, Raspberry, or Lime.",
-      price: "Market Price"
-    },
-    {
-      name: "Imported Beer",
-      desc: "Corona, Modelo, Dos Equis, Pacifico, Tecate, and more.",
-      price: "Market Price"
-    },
-    {
-      name: "Domestic Beer",
-      desc: "Bud Light, Coors Light, Michelob Ultra, Miller Lite, etc.",
-      price: "Market Price"
-    },
-    {
-      name: "Wine",
-      desc: "Ask your server for available selections.",
-      price: "Market Price"
-    }
+    { name: "Regular Margarita - Lime", desc: "", price: "4.50" },
+    { name: "Regular Margarita - Flavor", desc: "", price: "5.24" },
+    { name: "Jumbo Margarita - Lime", desc: "", price: "7.75" },
+    { name: "Jumbo Margarita - Flavor", desc: "", price: "8.75" },
+    { name: "Small Pitcher Margarita - Lime", desc: "", price: "11.75" },
+    { name: "Small Pitcher Margarita - Flavor", desc: "", price: "12.25" },
+    { name: "Large Pitcher Margarita - Lime", desc: "", price: "17.75" },
+    { name: "Large Pitcher Margarita - Flavor", desc: "", price: "18.75" },
+
+    { name: "Domestic Beer", desc: "Bud, Bud Light, Michelob Ultra, Busch, Bush Light, Miller Lite, and Coors Lite.", price: "3.65" },
+    { name: "Imported Beer", desc: "Corona, Negra Modelo, Modelo Especial, Sol, XX Amber, XX Lager, Tecate, and Pacífico.", price: "4.25" },
+    { name: "Wine Glass", desc: "Merlot, Sangria, Zinfandel, or Chardonnay.", price: "4.75" }
   ]
 }
   ]
