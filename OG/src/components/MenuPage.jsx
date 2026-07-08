@@ -36,7 +36,7 @@ export default function MenuPage() {
             </aside>
 
             <div ref={ref} className={`menupage-content reveal ${shown ? 'in' : ''}`}>
-              <h2 className="menupage-cat-title">{current.category}</h2>
+              <h2 className="menupage-cat-title">{current.title}</h2>
               <div className="menupage-items">
                 {current.items.map((item) => (
                   <div key={item.name} className="menupage-row">
