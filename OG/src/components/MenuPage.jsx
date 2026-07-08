@@ -1,12 +1,16 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { fullMenu, restaurant } from '../data.js'
 import { useReveal } from '../useReveal.js'
 import './MenuPage.css'
 
 export default function MenuPage() {
   const [active, setActive] = useState(fullMenu[0].id)
-const { ref, shown } = useReveal()
-const current = fullMenu.find((cat) => cat.id === active) || fullMenu[0]
+  const { ref, shown } = useReveal()
+  const current = fullMenu.find((cat) => cat.id === active) || fullMenu[0]
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div className="menupage">
