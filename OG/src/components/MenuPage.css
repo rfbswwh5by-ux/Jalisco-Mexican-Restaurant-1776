@@ -127,21 +127,6 @@
   margin-bottom: 20px;
   font-size: 1.05rem;
 }
-
-@media (max-width: 768px) {
-  .menupage-layout { grid-template-columns: 1fr; gap: 24px; }
-  .menupage-nav {
-    position: relative;
-    top: 0;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 6px;
-    padding: 10px;
-  }
-  .menupage-nav-btn { padding: 10px 14px; font-size: 0.85rem; }
-  .menupage-row { flex-direction: column; gap: 8px; }
-  .menupage-row-price { align-self: flex-start; }
-}
 @media (max-width: 768px) {
   .menupage-layout {
     display: block;
@@ -180,8 +165,8 @@
     border: 1px solid rgba(0,0,0,0.08);
   }
 
-  .menupage-nav-btn.active {
-  background: var(--red);
+  ..menupage-nav-btn.active {
+  background: var(--primary-600);
   color: #fff;
 }
 }
