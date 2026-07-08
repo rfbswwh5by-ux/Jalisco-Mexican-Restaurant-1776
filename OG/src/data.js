@@ -523,14 +523,19 @@ export const fullMenu = [
   title: "Soups",
   items: [
     {
-      name: "Chicken Soup",
-      desc: "Homemade chicken soup with vegetables. Served with rice and tortillas.",
-      price: "10.25"
+      name: "Caldo de Pollo",
+      desc: "Mexican chicken soup with chicken chunks, rice, pico de gallo, and three tortillas.",
+      price: "9.25"
     },
     {
-      name: "Seafood Soup",
-      desc: "Shrimp, fish, vegetables, and our homemade seafood broth.",
-      price: "15.99"
+      name: "Mexican Shrimp Soup",
+      desc: "With rice, pico de gallo, and three tortillas.",
+      price: "12.75"
+    },
+    {
+      name: "Caldo del Mar",
+      desc: "Shrimp and tilapia soup simmered with California mix onions, tomatoes, and spices.",
+      price: "13.99"
     }
   ]
 },
@@ -539,19 +544,24 @@ export const fullMenu = [
   title: "Salads",
   items: [
     {
-      name: "Taco Salad",
-      desc: "Ground beef or shredded chicken in a crispy tortilla bowl with lettuce, tomatoes, cheese, and sour cream.",
-      price: "9.99"
-    },
-    {
       name: "Grilled Chicken Salad",
-      desc: "Fresh lettuce topped with grilled chicken, tomatoes, cheese, and avocado.",
-      price: "10.99"
+      desc: "Grilled chicken with lettuce, tomatoes, onions, cheese, and mushrooms.",
+      price: "10.95"
     },
     {
-      name: "Fajita Salad",
-      desc: "Chicken or steak fajita meat over fresh salad with grilled vegetables.",
-      price: "11.99"
+      name: "Dinner Taco Salad",
+      desc: "A crispy flour tortilla, chicken or beef, cheese sauce, lettuce, tomatoes, shredded cheese, and sour cream.",
+      price: "9.50"
+    },
+    {
+      name: "Taco Salad Fajitas",
+      desc: "A crispy flour tortilla with your choice of grilled chicken or steak with sautéed onions, bell peppers, cheese sauce, lettuce, tomatoes, cheese, and sour cream.",
+      price: "10.95"
+    },
+    {
+      name: "Shrimp Salad",
+      desc: "Shrimp with lettuce, tomatoes, onions, avocado slices, cheese, and mushrooms.",
+      price: "12.95"
     }
   ]
 },
@@ -560,19 +570,93 @@ export const fullMenu = [
   title: "Vegetarian",
   items: [
     {
-      name: "Vegetarian Combo",
-      desc: "Cheese enchilada, bean burrito, rice, and beans.",
-      price: "10.50"
+      name: "Vegetarian #1",
+      desc: "One bean tostada, one cheese enchilada, and one bean burrito.",
+      price: "10.25"
     },
+    {
+      name: "Vegetarian #2",
+      desc: "One cheese burrito and one bean tostada. Served with rice.",
+      price: "10.25"
+    },
+    {
+      name: "Vegetarian #3",
+      desc: "One bean burrito, one cheese enchilada, and one quesadilla.",
+      price: "10.25"
+    },
+    {
+      name: "Vegetarian #4",
+      desc: "One chalupa, one bean burrito, and one quesadilla.",
+      price: "10.25"
+    },
+    {
+      name: "Vegetarian #5",
+      desc: "Two burritos with cooked bell peppers, tomatoes, and onions. Topped with melted cheese.",
+      price: "10.25"
+    },
+    {
+      name: "Vegetarian #6",
+      desc: "Two chile rellenos served with rice and beans.",
+      price: "10.25"
+    },
+    {
+      name: "Vegetarian #7",
+      desc: "Two cheese quesadillas topped with mushrooms. Served with rice.",
+      price: "10.25"
+    }
+  ]
+},
+  {
+  id: "vegetarian-fajitas",
+  title: "Vegetarian Fajitas",
+  items: [
     {
       name: "Vegetarian Fajitas",
-      desc: "Fresh grilled vegetables served with rice, beans, lettuce, sour cream, pico de gallo, cheese, and tortillas.",
-      price: "12.50"
+      desc: "Grilled broccoli, zucchini, onions, bell peppers, carrots, cauliflower, and mushrooms.",
+      price: "12.99"
     },
     {
-      name: "Spinach Quesadilla",
-      desc: "Stuffed with spinach and cheese. Served with rice and salad.",
-      price: "10.75"
+      name: "Add Chicken",
+      desc: "",
+      price: "+4.00"
+    },
+    {
+      name: "Add Steak",
+      desc: "",
+      price: "+5.00"
+    },
+    {
+      name: "Add Shrimp",
+      desc: "",
+      price: "+7.00"
+    }
+  ]
+},
+  {
+  id: "a-la-carte",
+  title: "À La Carte",
+  items: [
+    { name: "Beans", desc: "", price: "2.95" },
+    { name: "Mexican Rice", desc: "", price: "2.95" },
+    { name: "Cheese Quesadilla", desc: "1 for", price: "3.95" },
+    { name: "Cheese Quesadilla", desc: "2 for", price: "7.25" },
+    { name: "Beef, Chicken or Beef Tips Quesadilla", desc: "1 for", price: "4.99" },
+    { name: "Beef, Chicken or Beef Tips Quesadilla", desc: "2 for", price: "9.25" },
+    { name: "Tamale", desc: "1 for", price: "3.99" },
+    { name: "Tamale", desc: "3 for", price: "10.55" },
+    { name: "Burrito", desc: "1 for", price: "5.25" },
+    { name: "Burrito", desc: "2 for", price: "9.99" },
+    { name: "Enchilada (Cheese, Chicken or Beef)", desc: "1 for", price: "3.15" },
+    { name: "Enchilada (Cheese, Chicken or Beef)", desc: "3 for", price: "8.99" },
+    { name: "Crunchy or Soft Taco", desc: "Chicken or beef with lettuce and cheese (1).", price: "2.25" },
+    { name: "Crunchy or Soft Taco", desc: "Chicken or beef with lettuce and cheese (3).", price: "6.25" },
+    { name: "Grilled Chicken or Steak Taco", desc: "", price: "3.50" },
+    { name: "Shrimp or Fish Taco", desc: "", price: "3.99" },
+    { name: "Supreme", desc: "Add to any taco.", price: "+0.35" },
+    {
+      name: "Chiles Poblanos",
+      desc: "Stuffed poblano pepper with Chihuahua cheese, covered with egg whites and deep fried, topped with ranchero sauce.",
+      price: "1 for 4.25 • 2 for 7.99"
     }
   ]
 },
@@ -580,57 +664,28 @@ export const fullMenu = [
   id: "kids",
   title: "Kids Menu",
   items: [
-    {
-      name: "Kids Taco",
-      desc: "Served with rice and beans.",
-      price: "6.99"
-    },
-    {
-      name: "Kids Burrito",
-      desc: "Served with rice and beans.",
-      price: "6.99"
-    },
-    {
-      name: "Kids Quesadilla",
-      desc: "Served with rice.",
-      price: "6.99"
-    },
-    {
-      name: "Kids Chicken Fingers",
-      desc: "Served with fries.",
-      price: "6.99"
-    },
-    {
-      name: "Kids Cheeseburger",
-      desc: "Served with fries.",
-      price: "6.99"
-    }
+    { name: "Cheese Quesadilla", desc: "With your choice of rice or beans.", price: "6.99" },
+    { name: "Taco", desc: "Chicken or beef with rice and beans.", price: "6.99" },
+    { name: "Hot Dog", desc: "With French fries.", price: "6.99" },
+    { name: "Taco Salad", desc: "Chicken or beef.", price: "6.99" },
+    { name: "Chicken Nuggets", desc: "With French fries.", price: "6.99" },
+    { name: "Cheeseburger", desc: "With French fries.", price: "6.99" },
+    { name: "Enchilada", desc: "With rice and beans.", price: "6.99" },
+    { name: "Burrito", desc: "With rice and beans.", price: "6.99" },
+    { name: "Arroz con Pollo", desc: "Grilled chicken over a bed of rice topped with cheese sauce.", price: "6.99" }
   ]
 },
 {
   id: "desserts",
   title: "Desserts",
   items: [
-    {
-      name: "Fried Ice Cream",
-      desc: "Vanilla ice cream in a crispy cinnamon coating.",
-      price: "5.99"
-    },
-    {
-      name: "Sopapillas",
-      desc: "Warm pastry topped with honey, cinnamon, and whipped cream.",
-      price: "4.99"
-    },
-    {
-      name: "Churros",
-      desc: "Served with chocolate syrup.",
-      price: "5.99"
-    },
-    {
-      name: "Flan",
-      desc: "Traditional Mexican caramel custard.",
-      price: "4.99"
-    }
+    { name: "Ice Cream", desc: "", price: "3.25" },
+    { name: "Cheesecake", desc: "", price: "4.99" },
+    { name: "Chimi Cheesecake with Ice Cream", desc: "", price: "6.25" },
+    { name: "Fried Ice Cream", desc: "", price: "6.25" },
+    { name: "Sopapilla with Ice Cream", desc: "", price: "5.25" },
+    { name: "Sopapilla", desc: "", price: "3.25" },
+    { name: "Churros", desc: "", price: "6.99" }
   ]
 },
 {
