@@ -29,28 +29,21 @@ const current = fullMenu.find((cat) => cat.id === active) || fullMenu[0]
   key={cat.id}
   className={`menupage-nav-btn ${active === cat.id ? 'active' : ''}`}
   onClick={(e) => {
-  const nav = e.currentTarget.parentElement
-  const button = e.currentTarget
+    setActive(cat.id)
 
-  nav.scrollTo({
-    left: button.offsetLeft - nav.clientWidth / 2 + button.clientWidth / 2,
-    behavior: 'smooth'
-  })
+    const nav = e.currentTarget.parentElement
+    const button = e.currentTarget
 
-  setActive(cat.id)
+    nav.scrollTo({
+      left: button.offsetLeft - nav.clientWidth / 2 + button.clientWidth / 2,
+      behavior: 'smooth'
+    })
 
-  setTimeout(() => {
-    const title = document.querySelector('.menupage-cat-title')
-    const navBar = document.querySelector('.menupage-nav')
-
-    if (title && navBar) {
-      window.scrollTo({
-        top: title.getBoundingClientRect().top + window.scrollY - navBar.offsetHeight - 24,
-        behavior: 'smooth'
-      })
-    }
-  }, 50)
-}}
+    window.scrollTo({
+      top: document.querySelector('.menupage-body').offsetTop - 90,
+      behavior: 'smooth'
+    })
+  }}
 >
   {cat.title}
 </button>
