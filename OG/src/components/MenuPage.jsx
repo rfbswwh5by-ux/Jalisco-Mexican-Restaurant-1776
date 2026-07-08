@@ -4,9 +4,9 @@ import { useReveal } from '../useReveal.js'
 import './MenuPage.css'
 
 export default function MenuPage() {
-  const [active, setActive] = useState(0)
-  const { ref, shown } = useReveal()
-  const current = fullMenu[active]
+  const [active, setActive] = useState(fullMenu[0].id)
+const { ref, shown } = useReveal()
+const current = fullMenu.find((cat) => cat.id === active) || fullMenu[0]
 
   return (
     <div className="menupage">
@@ -27,8 +27,8 @@ export default function MenuPage() {
               {fullMenu.map((cat, i) => (
   <button
     key={cat.id}
-    className={`menupage-nav-btn ${active === i ? 'active' : ''}`}
-    onClick={() => setActive(i)}
+    className={`menupage-nav-btn ${active === cat.id ? 'active' : ''}`}
+onClick={() => setActive(cat.id)}
   >
     {cat.title}
   </button>
