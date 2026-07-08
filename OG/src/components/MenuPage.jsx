@@ -26,12 +26,27 @@ const current = fullMenu.find((cat) => cat.id === active) || fullMenu[0]
             <aside className="menupage-nav">
               {fullMenu.map((cat, i) => (
   <button
-    key={cat.id}
-    className={`menupage-nav-btn ${active === cat.id ? 'active' : ''}`}
-onClick={() => setActive(cat.id)}
-  >
-    {cat.title}
-  </button>
+  key={cat.id}
+  className={`menupage-nav-btn ${active === cat.id ? 'active' : ''}`}
+  onClick={(e) => {
+    setActive(cat.id)
+
+    const nav = e.currentTarget.parentElement
+    const button = e.currentTarget
+
+    nav.scrollTo({
+      left: button.offsetLeft - nav.clientWidth / 2 + button.clientWidth / 2,
+      behavior: 'smooth'
+    })
+
+    window.scrollTo({
+      top: document.querySelector('.menupage-body').offsetTop - 90,
+      behavior: 'smooth'
+    })
+  }}
+>
+  {cat.title}
+</button>
 ))}
             </aside>
 
