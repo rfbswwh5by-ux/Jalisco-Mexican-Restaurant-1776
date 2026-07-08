@@ -55,8 +55,8 @@ export default function Menu() {
         </p>
 
         <div className="menu-viewall">
-          <a href="/menu" className="btn btn-dark">View Full Menu →</a>
-        </div>
+  <a href="#/menu" className="btn btn-dark">View Full Menu →</a>
+</div>
       </div>
     </section>
   )
