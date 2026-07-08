@@ -700,6 +700,7 @@ export const fullMenu = [
     }
   ]
 }
+  ]
 
 export const reviews = [
   { author: 'Maria G.', rating: 5, text: 'This has become my comfort place. The staff are always so welcoming, friendly, and kind. They have gotten to know me with how often I come.', source: 'Facebook' },
