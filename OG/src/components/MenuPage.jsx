@@ -51,7 +51,6 @@ const current = fullMenu.find((cat) => cat.id === active) || fullMenu[0]
     }
   }, 50)
 }}
-  }}
 >
   {cat.title}
 </button>
