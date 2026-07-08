@@ -18,8 +18,10 @@ export default function Menu() {
       <div className="container">
         <div className="menu-head">
           <p className="section-eyebrow">Explore the Kitchen</p>
-          <h2 className="section-title">Our Menu</h2>
-          <p className="section-subtitle">From classic enchiladas to house specialties — fresh, flavorful, and made to order. Vegetarian options available throughout.</p>
+<h2 className="section-title">View Our Full Menu</h2>
+<p className="section-subtitle">
+  Browse our complete menu featuring appetizers, fajitas, tacos, burritos, seafood, desserts, drinks, and more.
+</p>
         </div>
 
         <div className="menu-tabs">
