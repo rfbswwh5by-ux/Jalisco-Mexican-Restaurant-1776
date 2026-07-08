@@ -38,16 +38,19 @@ onClick={() => setActive(cat.id)}
             <div ref={ref} className={`menupage-content reveal ${shown ? 'in' : ''}`}>
               <h2 className="menupage-cat-title">{current.title}</h2>
               <div className="menupage-items">
-                {current.items.map((item) => (
-                  <div key={item.name} className="menupage-row">
-                    <div className="menupage-row-info">
-                      <h3>{item.name}</h3>
-                      <p>{item.desc}</p>
-                    </div>
-                    <span className="menupage-row-price">{item.price}</span>
-                  </div>
-                ))}
-              </div>
+  {current.items.map((item, index) => (
+    <div
+      key={`${current.id}-${index}`}
+      className="menupage-row"
+    >
+      <div className="menupage-row-info">
+        <h3>{item.name}</h3>
+        <p>{item.desc}</p>
+      </div>
+      <span className="menupage-row-price">{item.price}</span>
+    </div>
+  ))}
+</div>
             </div>
           </div>
 
