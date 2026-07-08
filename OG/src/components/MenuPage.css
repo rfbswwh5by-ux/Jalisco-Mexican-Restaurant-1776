@@ -143,20 +143,31 @@
   .menupage-row-price { align-self: flex-start; }
 }
 @media (max-width: 768px) {
+  .menupage-layout {
+    display: block;
+  }
+
   .menupage-nav {
     position: sticky;
-    top: 70px;
-    z-index: 20;
+    top: 80px;
+    z-index: 50;
     display: flex;
+    flex-direction: row;
+    gap: 10px;
     overflow-x: auto;
     overflow-y: hidden;
-    gap: 10px;
+    white-space: nowrap;
     max-height: none;
-    padding: 12px;
+    padding: 10px 12px;
+    margin-bottom: 28px;
+    border-radius: 999px;
+    background: #fff;
   }
 
   .menupage-nav-btn {
-    white-space: nowrap;
     flex: 0 0 auto;
+    white-space: nowrap;
+    padding: 10px 16px;
+    border-radius: 999px;
   }
 }
