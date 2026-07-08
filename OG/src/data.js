@@ -20,12 +20,42 @@ export const hours = [
 ]
 
 export const popularDishes = [
-  { name: 'Chimichangas', desc: 'A crispy flour tortilla filled with seasoned beef or chicken, deep-fried golden and topped with cheese sauce. Served with rice and beans.', price: '$12.99', img: 'https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=800' },
-  { name: 'Burritos San Jose', desc: 'A large flour tortilla stuffed with grilled steak, rice, beans, pico de gallo, and melted cheese. A house specialty.', price: '$13.49', img: 'https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&w=800' },
-  { name: 'Chori Pollo', desc: 'Grilled chicken breast with Mexican chorizo, sautéed onions, and melted cheese. Served with rice, beans, and tortillas.', price: '$14.99', img: 'https://images.pexels.com/photos/2087748/pexels-photo-2087748.jpeg?auto=compress&cs=tinysrgb&w=800' },
-  { name: 'Fajitas', desc: 'Sizzling strips of marinated steak or chicken with bell peppers and onions. Served with rice, beans, sour cream, and warm tortillas.', price: '$15.99', img: 'https://images.pexels.com/photos/359993/pexels-photo-359993.jpeg?auto=compress&cs=tinysrgb&w=800' },
-  { name: 'Tacos', desc: 'Three soft corn tortillas filled with your choice of carnitas, carne asada, or grilled chicken. Topped with onion and cilantro.', price: '$10.99', img: 'https://images.pexels.com/photos/2092507/pexels-photo-2092507.jpeg?auto=compress&cs=tinysrgb&w=800' },
-  { name: 'Quesadillas', desc: 'A large flour tortilla grilled with melted cheese and your choice of filling. Served with guacamole and sour cream.', price: '$11.49', img: 'https://images.pexels.com/photos/4518843/pexels-photo-4518843.jpeg?auto=compress&cs=tinysrgb&w=800' },
+  {
+    name: "Fajitas Jalisco",
+    price: "$16.99",
+    desc: "Chicken, steak, chorizo, and shrimp cooked with bell peppers, tomatoes, and onions.",
+    img: "/fajitas_shrimp_and_chicken.jpg"
+  },
+  {
+    name: "Monster Chimi",
+    price: "$12.75",
+    desc: "A 10-inch flour tortilla filled with grilled chicken, steak, and mushrooms, topped with cheese and ranchero sauce.",
+    img: "/burrito_in_red_sauce.jpg"
+  },
+  {
+    name: "Pollo Jalisco",
+    price: "$12.25+",
+    desc: "Grilled chicken over rice covered with cheese sauce. Served with fries, lettuce, sour cream, and tomatoes.",
+    img: "/chicken_platter.jpg"
+  },
+  {
+    name: "Steak La Paz",
+    price: "$16.99",
+    desc: "Ribeye steak with grilled shrimp, cheese sauce, and fries.",
+    img: "/grilled_shrimp.jpg"
+  },
+  {
+    name: "Burrito California",
+    price: "$13.29",
+    desc: "Grilled chicken and steak with rice, beans, lettuce, guacamole, sour cream, pico de gallo, and cheese sauce.",
+    img: "/burrito_in_red_sauce.jpg"
+  },
+  {
+    name: "Margaritas",
+    price: "$4.50+",
+    desc: "Lime and flavored margaritas available regular, jumbo, and pitcher size.",
+    img: "/Margarites.JPG"
+  }
 ]
 
 export const enchiladas = [
