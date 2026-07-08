@@ -43,75 +43,129 @@ export const otherOptions = [
 
 export const fullMenu = [
   {
-    category: 'Appetizers',
+    id: "appetizers",
+    title: "Appetizers & Dips",
     items: [
-      { name: 'Chips & Salsa', desc: 'Crispy tortilla chips with house-made red and green salsa.', price: '$3.99' },
-      { name: 'Guacamole', desc: 'Fresh avocado mashed with tomato, onion, cilantro, and lime.', price: '$6.49' },
-      { name: 'Queso Dip', desc: 'Warm melted cheese dip with peppers. Served with chips.', price: '$5.99' },
-      { name: 'Nachos Jalisco', desc: 'Tortilla chips topped with cheese, beans, beef, guacamole, and sour cream.', price: '$9.99' },
-      { name: 'Chile Colorado', desc: 'Tender beef chunks simmered in a rich red chile sauce. Served with rice and beans.', price: '$13.99' },
-      { name: 'Jalapeño Poppers', desc: 'Six jalapeños stuffed with cream cheese, breaded and fried.', price: '$7.49' },
-    ],
+      { name: "Cheese Dip", desc: "", price: "4.75" },
+      { name: "Guacamole", desc: "", price: "4.75" },
+      { name: "Bean Dip", desc: "", price: "7.25" },
+      { name: "Beef Queso Dip", desc: "Ground beef and pico de gallo with cheese sauce.", price: "7.99" },
+      { name: "Arroz con Queso", desc: "Rice topped with cheese sauce.", price: "5.25" },
+      { name: "Guacamole Casero", desc: "Chunks of avocado mixed with tomato, onion, cilantro, jalapeño, lime, and salt.", price: "7.99" },
+      { name: "Queso Fundido", desc: "Mexican sausage topped with melted cheese. Served with tortillas.", price: "8.25" },
+      { name: "Appetizer Sampler", desc: "2 cheese quesadillas, 2 chicken taquitos, lettuce, sour cream, and pico de gallo.", price: "8.99" },
+      { name: "Quesadilla", desc: "Chicken, beef, or mushrooms.", price: "4.99" }
+    ]
   },
   {
-    category: 'Tacos & Burritos',
+    id: "nachos",
+    title: "Nachos",
     items: [
-      { name: 'Tacos (3)', desc: 'Three soft corn tortillas with carnitas, carne asada, or grilled chicken. Onion and cilantro.', price: '$10.99' },
-      { name: 'Burrito San Jose', desc: 'Large flour tortilla with grilled steak, rice, beans, pico de gallo, and cheese.', price: '$13.49' },
-      { name: 'Bean Burrito', desc: 'Flour tortilla filled with refried beans, cheese, and onion. Smothered in red sauce.', price: '$9.99' },
-      { name: 'Chimichanga', desc: 'Crispy fried flour tortilla filled with beef or chicken. Topped with cheese sauce.', price: '$12.99' },
-      { name: 'Wet Burrito', desc: 'A large burrito smothered in red enchilada sauce and melted cheese.', price: '$13.99' },
-    ],
+      { name: "Cheese Nachos", desc: "Fried corn tortilla chips topped with cheese.", price: "7.25" },
+      { name: "Shredded Chicken Nachos", desc: "Half order available.", price: "7.99" },
+      { name: "Ground Beef Nachos", desc: "Half order available.", price: "7.99" },
+      { name: "Grilled Steak Nachos", desc: "", price: "11.25" },
+      { name: "Grilled Chicken Nachos", desc: "", price: "11.25" },
+      { name: "Grilled Shrimp and Chorizo Nachos", desc: "", price: "13.99" },
+      { name: "Nachos Supreme", desc: "Topped with chicken, beef, beans, lettuce, tomatoes, sour cream, and cheese.", price: "10.25" },
+      { name: "Nachos Fajita Style", desc: "Cooked with onions, tomatoes, and bell peppers. Choice of chicken, steak, shrimp, or mixed.", price: "12.25+" }
+    ]
   },
   {
-    category: 'Enchiladas',
+    id: "fajitas",
+    title: "Fajitas",
     items: [
-      { name: 'Enchiladas Suizas', desc: 'Three chicken enchiladas with creamy tomatillo sauce and melted cheese.', price: '$12.99' },
-      { name: 'Enchilada Jalisco', desc: 'Shrimp enchiladas in mild red sauce, topped with cheese and avocado.', price: '$14.99' },
-      { name: 'Enchilada Bandera', desc: 'Three enchiladas in green, white, and red sauces — the colors of Mexico.', price: '$13.49' },
-      { name: 'Cheese Enchilada', desc: 'Corn tortillas rolled with melted cheese, smothered in red sauce.', price: '$10.99' },
-      { name: 'Azteca Combo', desc: 'One chicken, one bean, one cheese, and one beef enchilada. Topped with enchilada sauce, rice, and cheese sauce.', price: '$14.99' },
-    ],
+      { name: "Chicken Fajitas", desc: "Cooked with bell peppers, tomatoes, and onions. Served with rice, beans, lettuce, sour cream, pico de gallo, cheese, and tortillas.", price: "13.99" },
+      { name: "Steak Fajitas", desc: "Cooked with bell peppers, tomatoes, and onions.", price: "14.99" },
+      { name: "Fajitas Mix", desc: "Chicken, steak, and shrimp.", price: "16.25" },
+      { name: "Fajitas Jalisco", desc: "Chicken, steak, chorizo, and shrimp.", price: "16.99" },
+      { name: "Fajitas Camarón", desc: "Shrimp fajitas.", price: "18.50" },
+      { name: "Fajita Hawaiana", desc: "Sautéed onion, bell pepper, and pineapple. Choice of chicken, steak, or shrimp.", price: "15.80+" },
+      { name: "Super Fajitas", desc: "Chicken, steak, chorizo, and carnitas cooked with bell peppers, tomatoes, and onions. Topped with yellow and white cheese.", price: "17.99" },
+      { name: "Mar y Tierra", desc: "Chicken, steak, shrimp, fish fillet, and chorizo.", price: "24.75" },
+      { name: "Mi Fajita", desc: "Chicken, steak, Mexican sausage, onions, tomatoes, cilantro, and jalapeño. Not too spicy, not too mild.", price: "16.25" }
+    ]
   },
   {
-    category: 'Fajitas',
+    id: "chicken",
+    title: "Chicken From the Grill",
     items: [
-      { name: 'Chicken Fajitas', desc: 'Sizzling marinated chicken with peppers and onions. Rice, beans, and tortillas.', price: '$15.99' },
-      { name: 'Steak Fajitas', desc: 'Sizzling marinated steak with peppers and onions. Rice, beans, and tortillas.', price: '$16.99' },
-      { name: 'Shrimp Fajitas', desc: 'Sizzling grilled shrimp with peppers and onions. Rice, beans, and tortillas.', price: '$17.99' },
-      { name: 'Fajitas for Two', desc: 'A generous platter of chicken and steak fajitas with all the fixings.', price: '$29.99' },
-    ],
+      { name: "El Jalisco Special", desc: "Chicken, steak, and shrimp cooked with bell peppers, tomatoes, and onions. Served on rice covered with cheese sauce.", price: "13.99" },
+      { name: "Grilled Chicken Tacos", desc: "Three grilled chicken tacos served with beans, pico de gallo, and green salsa.", price: "11.99" },
+      { name: "Pollo Cancún", desc: "Chicken breast and shrimp with pico de gallo and mushrooms. Served with rice, salad, and tortillas.", price: "14.50" },
+      { name: "Pollo Feliz", desc: "Grilled chicken breast with shrimp, mushrooms, onions, bell peppers, and melted cheese. Served with rice, beans, and tortillas.", price: "14.75" },
+      { name: "Chicken Fiesta", desc: "Grilled chicken breast served on vegetables covered with cheese sauce.", price: "13.75" },
+      { name: "Pollo Palapa", desc: "Chicken breast covered with cheese sauce. Served with salad and fries.", price: "12.25" },
+      { name: "Pollo Jalisco", desc: "Grilled chicken on rice, covered with cheese sauce. Served with fries, lettuce, sour cream, and tomatoes.", price: "12.25+" },
+      { name: "Pollo Michoacano", desc: "Grilled chicken breast with chorizo and melted cheese. Served with beans, salad, and tortillas.", price: "13.25" },
+      { name: "Pollo a la Parrilla", desc: "Grilled chicken breast with mushrooms, onions, and bell peppers. Topped with melted cheese.", price: "13.25" },
+      { name: "Pollo Loco", desc: "Grilled chicken breast with ranchero sauce and cheese. Served with salad, rice, beans, and tortillas.", price: "13.25" }
+    ]
   },
   {
-    category: 'House Specialties',
+    id: "steak",
+    title: "Steak",
     items: [
-      { name: 'Chori Pollo', desc: 'Grilled chicken with chorizo, sautéed onions, and melted cheese. Rice, beans, tortillas.', price: '$14.99' },
-      { name: 'Pollo Feliz', desc: 'Grilled chicken breast with cheese sauce and mushrooms. Rice and salad.', price: '$13.99' },
-      { name: 'Mexican Horseshoe', desc: 'Tortilla chips with your choice of meat, cheese sauce, and all the fixings.', price: '$12.49' },
-      { name: 'Fajita Quesadilla', desc: 'Large quesadilla with grilled fajita meat, peppers, onions, and cheese.', price: '$13.49' },
-      { name: 'Carne Asada', desc: 'Grilled skirt steak with onions, guacamole, pico de gallo, rice, and beans.', price: '$16.99' },
-    ],
+      { name: "Carne Asada", desc: "Slices of steak with cooked onions on top. Served with rice, beans, guacamole salad, and tortillas.", price: "13.75" },
+      { name: "Steak Mexicano", desc: "Ribeye topped with cooked onions, tomatoes, and bell peppers. Served with rice, beans, and tortillas.", price: "15.75" },
+      { name: "Steak Ranchero", desc: "Ribeye steak with ranchero sauce. Served with rice, beans, and tortillas.", price: "15.70" },
+      { name: "Tacos de Carne Asada", desc: "Three steak tacos served with pico de gallo and beans.", price: "13.75" },
+      { name: "Steak La Paz", desc: "Ribeye steak, grilled shrimp, cheese sauce, and fries.", price: "16.99" },
+      { name: "Steak and Shrimp", desc: "Ribeye steak with shrimp on mushrooms, onions, bell peppers, and melted cheese. Comes with rice, beans, and tortillas.", price: "16.99" }
+    ]
   },
   {
-    category: 'Vegetarian',
+    id: "burritos",
+    title: "Burritos",
     items: [
-      { name: 'Veggie Burrito', desc: 'Flour tortilla with rice, beans, peppers, onions, and cheese. No meat.', price: '$10.99' },
-      { name: 'Veggie Quesadilla', desc: 'Grilled peppers, onions, tomatoes, and melted cheese in a flour tortilla.', price: '$10.49' },
-      { name: 'Spinach Enchiladas', desc: 'Two enchiladas filled with spinach and cheese, topped with green sauce.', price: '$11.99' },
-      { name: 'Bean Tacos (3)', desc: 'Three soft tacos with refried beans, cheese, lettuce, and tomato.', price: '$9.49' },
-    ],
+      { name: "Burritos Azteca", desc: "Two burritos: one grilled chicken and one steak. Topped with rice and cheese sauce.", price: "12.25" },
+      { name: "Burrito Real", desc: "One chicken or beef burrito topped with lettuce, sour cream, cheese, tomatoes, rice, and beans.", price: "11.25" },
+      { name: "Burritos Supremos", desc: "Two burritos: one chicken with beans and one beef with beans. Topped with red sauce, lettuce, sour cream, tomatoes, and cheese.", price: "11.75" },
+      { name: "Burrito Roqueta", desc: "Flour tortilla stuffed with pork carnitas, pico de gallo, cheese, and green tomatillo sauce. Served with rice and beans.", price: "11.75" },
+      { name: "Burrito Fajita", desc: "Choice of chicken or steak with peppers, onions, and tomatoes. Served with rice, lettuce, guacamole, sour cream, and pico de gallo.", price: "12.25" },
+      { name: "Burrito California", desc: "Grilled chicken and steak with lettuce, guacamole, sour cream, pico de gallo, rice, and beans. Topped with cheese sauce and green tomatillo sauce.", price: "13.99" }
+    ]
   },
   {
-    category: 'Desserts & Drinks',
+    id: "quesadillas",
+    title: "Quesadillas",
     items: [
-      { name: 'Flan', desc: 'Traditional Mexican caramel custard.', price: '$4.49' },
-      { name: 'Churros (3)', desc: 'Cinnamon-sugar fried dough with chocolate dipping sauce.', price: '$5.49' },
-      { name: 'Sopapillas', desc: 'Fried pastry pillows drizzled with honey and cinnamon.', price: '$4.99' },
-      { name: 'Margarita', desc: 'Classic lime margarita on the rocks with salt. Happy hour pricing available.', price: '$6.99' },
-      { name: 'Mexican Coke', desc: 'Coca-Cola made with cane sugar in a glass bottle.', price: '$3.49' },
-      { name: 'Horchata', desc: 'Sweet rice milk drink with cinnamon.', price: '$3.99' },
-    ],
+      { name: "Quesadilla Mexicana", desc: "Flour tortilla stuffed with cheese, beans, and choice of beef tips, ground beef, or chicken. Served with lettuce, tomatoes, and sour cream.", price: "9.75" },
+      { name: "Quesadilla Ranchera", desc: "Flour tortilla stuffed with cheese and cooked mushrooms. Served with lettuce, sour cream, and tomatoes.", price: "9.50" },
+      { name: "Quesadilla Jalisco", desc: "Grilled shrimp and beans inside. Served with rice, lettuce, tomatoes, sour cream, and cheese sauce on top.", price: "11.75" },
+      { name: "Quesadilla Fajita", desc: "Cooked with vegetables. Served with rice, lettuce, tomatoes, sour cream, and pico de gallo.", price: "12.50+" },
+      { name: "Quesadilla Suprema", desc: "Stuffed with shredded chicken. Served with cheese, lettuce, sour cream, tomatoes, and rice.", price: "12.99" }
+    ]
   },
+  {
+    id: "enchiladas",
+    title: "Enchiladas",
+    items: [
+      { name: "Enchiladas Supremas", desc: "One chicken enchilada, one bean enchilada, one cheese enchilada, and one beef enchilada. Topped with enchilada sauce, lettuce, cheese, tomatoes, and sour cream.", price: "12.25" },
+      { name: "Enchilada Azteca", desc: "One chicken enchilada, one bean enchilada, one cheese enchilada, and one beef enchilada. Topped with enchilada sauce, rice, and cheese sauce.", price: "12.50" },
+      { name: "Enchiladas Jalisco", desc: "Three shrimp enchiladas with cheese sauce on top. Served with rice, lettuce, sour cream, guacamole, and tomatoes.", price: "12.75" },
+      { name: "Enchiladas Bandera", desc: "One chicken with green salsa, one beef with cheese sauce, and one cheese with enchilada sauce. Served with rice and salad.", price: "11.99" },
+      { name: "Yolandas", desc: "Order of three chicken enchiladas topped with ranchero sauce. Served with rice and salad.", price: "11.99" },
+      { name: "Enchiladas Suizas", desc: "Four chicken enchiladas topped with green tomatillo cheese sauce, onions, and cilantro.", price: "12.25" },
+      { name: "Enchiladas el Compadre", desc: "Two cheese enchiladas topped with grilled chicken. Served with rice and beans.", price: "12.25" }
+    ]
+  },
+  {
+    id: "lunch",
+    title: "Lunch",
+    items: [
+      { name: "Lunch 1", desc: "Speedy Gonzales: one enchilada, one taco, rice, and beans.", price: "8.49" },
+      { name: "Lunch 2", desc: "Chile relleno, one taco, beans, and guacamole salad.", price: "8.75" },
+      { name: "Lunch 3", desc: "Cheese quesadilla, one taco, and rice.", price: "7.95" },
+      { name: "Lunch 4", desc: "One beef burrito, rice, and beans.", price: "7.95" },
+      { name: "Lunch 5", desc: "One beef burrito, one taco, and beans.", price: "7.95" },
+      { name: "Lunch 6", desc: "One chicken enchilada, rice, and beans.", price: "7.95" },
+      { name: "Lunch 7", desc: "One chicken quesadilla, rice, and beans.", price: "7.95" },
+      { name: "Lunch 8", desc: "One tamal, rice, and beans.", price: "7.95" },
+      { name: "Lunch 9", desc: "Taquitos Mexicanos. Two chicken taquitos with rice, beans, lettuce, pico de gallo, and sour cream.", price: "7.95" },
+      { name: "Lunch 10", desc: "Grilled chicken breast served with rice, salad, and tortillas.", price: "9.25" }
+    ]
+  }
 ]
 
 export const reviews = [
