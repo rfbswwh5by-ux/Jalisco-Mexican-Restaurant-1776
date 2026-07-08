@@ -181,7 +181,7 @@
   }
 
   .menupage-nav-btn.active {
-    background: var(--red);
-    color: #fff;
-  }
+  background: var(--red);
+  color: #fff;
+}
 }
