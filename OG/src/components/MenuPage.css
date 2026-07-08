@@ -142,3 +142,21 @@
   .menupage-row { flex-direction: column; gap: 8px; }
   .menupage-row-price { align-self: flex-start; }
 }
+@media (max-width: 768px) {
+  .menupage-nav {
+    position: sticky;
+    top: 70px;
+    z-index: 20;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 10px;
+    max-height: none;
+    padding: 12px;
+  }
+
+  .menupage-nav-btn {
+    white-space: nowrap;
+    flex: 0 0 auto;
+  }
+}
