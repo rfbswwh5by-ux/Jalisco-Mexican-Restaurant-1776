@@ -165,7 +165,7 @@
     border: 1px solid rgba(0,0,0,0.08);
   }
 
-  ..menupage-nav-btn.active {
+  .menupage-nav-btn.active {
   background: var(--primary-600);
   color: #fff;
 }
