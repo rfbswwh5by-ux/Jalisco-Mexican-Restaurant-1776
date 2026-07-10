@@ -622,6 +622,19 @@ export const fullMenu = [
     { name: "Churros", desc: "", price: "6.99" }
   ]
 },
+  {
+  id: "soft-drinks",
+  title: "Soft Drinks",
+  items: [
+    { name: "Pepsi", desc: "", price: "" },
+    { name: "Diet Pepsi", desc: "", price: "" },
+    { name: "Dr Pepper", desc: "", price: "" },
+    { name: "Mountain Dew", desc: "", price: "" },
+    { name: "Starry", desc: "", price: "" },
+    { name: "Crush Orange", desc: "", price: "" },
+    { name: "Lemonade", desc: "", price: "" }
+  ]
+},
 {
   id: "drinks",
   title: "Margaritas, Beer & Wine",
