@@ -624,7 +624,7 @@ export const fullMenu = [
 },
   {
   id: "soft-drinks",
-  title: "Soft Drinks",
+  title: "Soft Drinks - 2.99",
   items: [
     { name: "Pepsi", desc: "", price: "" },
     { name: "Diet Pepsi", desc: "", price: "" },
