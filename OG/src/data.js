@@ -622,7 +622,7 @@ export const fullMenu = [
   title: "Margaritas, Beer & Wine",
   items: [
     { name: "Regular Margarita - Lime", desc: "", price: "4.50" },
-    { name: "Regular Margarita - Flavor", desc: "", price: "5.24" },
+    { name: "Regular Margarita - Flavor", desc: "", price: "5.25" },
     { name: "Jumbo Margarita - Lime", desc: "", price: "7.75" },
     { name: "Jumbo Margarita - Flavor", desc: "", price: "8.75" },
     { name: "Small Pitcher Margarita - Lime", desc: "", price: "11.75" },
