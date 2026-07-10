@@ -293,8 +293,8 @@ export const fullMenu = [
     },
     {
       name: "Quesadilla Fajita",
-      desc: "Cooked with vegetables. Served with rice, lettuce, tomatoes, sour cream, and pico de gallo. Choice of chicken or steak.",
-      price: "12.50"
+      desc: "Cooked with vegetables. Served with rice, lettuce, tomatoes, sour cream, and pico de gallo. Choice of Chicken or Steak.",
+      price: "12.50+"
     },
     {
       name: "Quesadilla Suprema",
