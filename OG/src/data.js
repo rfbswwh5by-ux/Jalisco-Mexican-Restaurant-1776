@@ -292,9 +292,10 @@ export const fullMenu = [
       price: "11.75"
     },
     {
-      name: "Quesadilla Fajita",
+      name: "Quesadilla Fajita Chicken Or Steak",
       desc: "Cooked with vegetables. Served with rice, lettuce, tomatoes, sour cream, and pico de gallo. Choice of Chicken or Steak.",
-      price: "12.50+"
+      price: "12.50 for Chicken"
+      price: "12.99 for Steak"
     },
     {
       name: "Quesadilla Suprema",
