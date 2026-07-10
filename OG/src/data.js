@@ -197,7 +197,7 @@ export const fullMenu = [
     {
       name: "Chile Colorado",
       desc: "Chicken or steak with red chile sauce. Served with rice, beans, and flour tortillas.",
-      price: "12.59"
+      price: "12.50"
     },
     {
       name: "Chile Verde",
