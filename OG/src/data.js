@@ -624,15 +624,15 @@ export const fullMenu = [
 },
   {
   id: "soft-drinks",
-  title: "Soft Drinks - 2.99",
+  title: "Soft Drinks",
   items: [
-    { name: "Pepsi", desc: "", price: "" },
-    { name: "Diet Pepsi", desc: "", price: "" },
-    { name: "Dr Pepper", desc: "", price: "" },
-    { name: "Mountain Dew", desc: "", price: "" },
-    { name: "Starry", desc: "", price: "" },
-    { name: "Crush Orange", desc: "", price: "" },
-    { name: "Lemonade", desc: "", price: "" }
+    { name: "Pepsi", desc: "", price: "2.99" },
+    { name: "Diet Pepsi", desc: "", price: "2.99" },
+    { name: "Dr Pepper", desc: "", price: "2.99" },
+    { name: "Mountain Dew", desc: "", price: "2.99" },
+    { name: "Starry", desc: "", price: "2.99" },
+    { name: "Crush Orange", desc: "", price: "2.99" },
+    { name: "Lemonade", desc: "", price: "2.99" }
   ]
 },
 {
