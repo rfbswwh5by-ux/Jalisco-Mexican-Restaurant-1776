@@ -122,7 +122,7 @@ export const fullMenu = [
     { name: "Fajitas Camarón", desc: "Shrimp fajitas.", price: "1 for 18.50 • 2 for 28.50" },
     { name: "Fajita Hawaiana", desc: "Sautéed onion, bell pepper, and pineapple. Choice of chicken, steak, or shrimp.", price: "15.80+" },
     { name: "Super Fajitas", desc: "Chicken, steak, chorizo, and carnitas cooked with bell peppers, tomatoes, and onions. Topped with yellow and white cheese.", price: "17.99" },
-    { name: "Mar y Tierra", desc: "Chicken, steak, shrimp, fish fillet, and chorizo. Served on a bed of bell peppers, onions, and tomatoes.", price: "24.75" },
+    { name: "Mar y Tierra", desc: "Chicken, steak, shrimp, fish fillet, and chorizo. Served on a bed of bell peppers, onions, and tomatoes.", price: "24.25" },
     { name: "Mi Fajita", desc: "Chicken, steak, Mexican sausage, onions, tomatoes, cilantro, and jalapeño. Not too spicy, not too mild.", price: "16.25" }
   ]
 },
