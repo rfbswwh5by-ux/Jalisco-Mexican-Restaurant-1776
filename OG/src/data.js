@@ -78,7 +78,8 @@ export const fullMenu = [
       { name: "Guacamole Casero", desc: "Chunks of avocado mixed with tomato, onion, cilantro, jalapeño, lime, and salt.", price: "7.99" },
       { name: "Queso Fundido", desc: "Mexican sausage topped with melted cheese. Served with tortillas.", price: "8.25" },
       { name: "Appetizer Sampler", desc: "2 cheese quesadillas, 2 chicken taquitos, lettuce, sour cream, and pico de gallo.", price: "8.99" },
-      { name: "Quesadilla", desc: "Chicken, beef, or mushrooms.", price: "5.99" },
+      { name: "Quesadilla", desc: "Chicken, beef, or mushrooms.", price: "4.99" },
+      { name: "Grilled Quesadilla", desc: "Grilled Chicken beef, or mushroom", price: "5.99" },
       { name: "Steak Quesadilla", desc: "", price: "6.25" }
     ]
   },
