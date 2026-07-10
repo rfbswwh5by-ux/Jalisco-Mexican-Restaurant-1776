@@ -92,9 +92,9 @@ export const fullMenu = [
       { name: "Grilled Chicken Nachos", desc: "", price: "11.25" },
       { name: "Grilled Shrimp and Chorizo Nachos", desc: "", price: "13.99" },
       { name: "Nachos Supreme", desc: "Topped with chicken, beef, beans, lettuce, tomatoes, sour cream, and cheese.", price: "10.25" },
-      { name: "Nachos Fajita Style Chicken", desc: "Cooked with onions, tomatoes, and bell peppers.", price: "12.25 • 1/2 for 9.25" }
-      { name: "Nachos Fajita Style Steak", desc: "Cooked with onions, tomatoes, and bell peppers.", price: "12.25 • 1/2 for 9.25" }
-      { name: "Nachos Fajita Style Shrimp", desc: "Cooked with onions, tomatoes, and bell peppers.", price: "13.99 • 1/2 for 10.25" }
+      { name: "Nachos Fajita Style Chicken", desc: "Cooked with onions, tomatoes, and bell peppers.", price: "12.25 • 1/2 for 9.25" },
+      { name: "Nachos Fajita Style Steak", desc: "Cooked with onions, tomatoes, and bell peppers.", price: "12.25 • 1/2 for 9.25" },
+      { name: "Nachos Fajita Style Shrimp", desc: "Cooked with onions, tomatoes, and bell peppers.", price: "13.99 • 1/2 for 10.25" },
       { name: "Nachos Fajita Style Mixed", desc: "Cooked with onions, tomatoes, and bell peppers.", price: "14.25 • 1/2 for 10.35" }
     ]
   },
