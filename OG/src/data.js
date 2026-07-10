@@ -557,7 +557,7 @@ export const fullMenu = [
     {
       name: "Add Shrimp",
       desc: "",
-      price: "+7.00"
+      price: "+7.25"
     }
   ]
 },
