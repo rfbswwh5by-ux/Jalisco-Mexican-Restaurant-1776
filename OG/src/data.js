@@ -148,7 +148,7 @@ export const fullMenu = [
   items: [
     { name: "Carne Asada", desc: "Slices of steak with cooked onions on top. Served with rice, beans, guacamole salad, and tortillas.", price: "13.75" },
     { name: "Steak Mexicano", desc: "Ribeye topped with cooked onions, tomatoes, and bell peppers. Served with rice, beans, and tortillas.", price: "15.75" },
-    { name: "Steak Ranchero", desc: "Ribeye steak with ranchero sauce on top. Served with rice, beans, and tortillas.", price: "15.70" },
+    { name: "Steak Ranchero", desc: "Ribeye steak with ranchero sauce on top. Served with rice, beans, and tortillas.", price: "15.75" },
     { name: "Tacos de Carne Asada", desc: "Three steak tacos served with pico de gallo and beans.", price: "13.75" },
     { name: "Steak La Paz", desc: "Ribeye steak, grilled shrimp, cheese sauce, and fries.", price: "16.99" },
     { name: "Steak and Shrimp", desc: "Ribeye steak with shrimp on a bed of mushrooms, onions, bell peppers, and melted cheese. Comes with rice, beans, and tortillas.", price: "16.99" }
