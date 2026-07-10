@@ -300,6 +300,7 @@ export const fullMenu = [
       name: "Quesadilla Suprema",
       desc: "Stuffed with shredded chicken. Served with cheese, lettuce, sour cream, tomatoes, and rice.",
       price: "12.99"
+      price: "Grilled chicken or steak for 13.99"
     }
   ]
 },
