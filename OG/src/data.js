@@ -5,7 +5,7 @@ export const restaurant = {
   reviewCount: '1K+',
   priceRange: '$10–20',
   phone: '(573) 592-0047',
-  address: '1211 US-54 BUS, Fulton, MO 65251 ',
+  address: '1211 US-54 BUS, Fulton, MO 65251',
   website: '#',
 }
 
